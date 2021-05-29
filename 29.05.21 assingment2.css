@@ -1,0 +1,56 @@
+input[type = radio]{
+    size: 60px;
+    margin: 40px;
+    padding: 8px;
+}
+
+label{
+    font-size:x-large;
+    margin: 40px;
+
+}
+body{
+    background: grey;
+background: linear-gradient(317deg, grey 0%, grey 34%, black 100%);
+    font-family:  sans-serif;
+}
+
+
+table{
+  
+    
+    border-collapse: collapse;
+   width: fit-content;
+   height:max-content;
+   border-radius:10px;
+   border-style:ridge;
+   
+
+}
+td,th{
+    border: 3px solid rgb(5, 5, 5);
+    text-align: left;
+    padding: 0;
+    width: 2000px;
+   
+}
+
+button {
+   border-radius: 12px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: green; 
+    color:black;
+    
+  }
